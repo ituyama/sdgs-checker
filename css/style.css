@@ -1,0 +1,86 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background: whitesmoke;
+    background-color: #dffaf6;
+    background-image:
+     repeating-linear-gradient(45deg,#fff, #fff 25px,transparent 0, transparent 50px);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    height: 100vh;
+     
+    }
+.center{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}
+h1{
+    color: orangered;
+    font-weight: 900;
+}
+h4{
+    color: rgb(95, 95, 95);
+    font-weight: 300;
+}
+.sdgsimg{
+    border-radius: 20px;
+    border: 10px solid #71d1c3;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+}
+
+.card{
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.center{
+   
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.title{
+    margin-top: 40px;
+    font-weight:bolder;
+}
+.imgs{
+    width: 500px;
+    max-width: 100%;
+}
+.form-control{
+    border: none;
+ 
+}
+.form-control:active{
+    border: none;
+
+
+}
+input:active{
+    border: none;
+
+}
+.navbar,.navbar-brand{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.donate{
+    z-index: 10;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.margins{
+    margin-top: 60px;
+
+}
